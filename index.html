@@ -13,19 +13,22 @@
       <div class="controls">
         <button id="scrambleBtn" type="button">Scramble</button>
         <button id="solveBtn" type="button" class="secondary">Solve</button>
+        <button id="resetBtn" type="button" class="danger">Reset</button>
       </div>
 
-      <div class="cube-net" aria-label="Rubik's cube puzzle">
-        <div class="face face-up" data-face="U" aria-label="Up face"></div>
+      <div class="cube-wrap">
+        <div class="cube-net" aria-label="Rubik's cube puzzle">
+          <div class="face" data-face="U" aria-label="Up face"></div>
 
-        <div class="middle-row">
-          <div class="face face-left" data-face="L" aria-label="Left face"></div>
-          <div class="face face-front" data-face="F" aria-label="Front face"></div>
-          <div class="face face-right" data-face="R" aria-label="Right face"></div>
-          <div class="face face-back" data-face="B" aria-label="Back face"></div>
+          <div class="middle-row">
+            <div class="face" data-face="L" aria-label="Left face"></div>
+            <div class="face" data-face="F" aria-label="Front face"></div>
+            <div class="face" data-face="R" aria-label="Right face"></div>
+            <div class="face" data-face="B" aria-label="Back face"></div>
+          </div>
+
+          <div class="face" data-face="D" aria-label="Down face"></div>
         </div>
-
-        <div class="face face-down" data-face="D" aria-label="Down face"></div>
       </div>
     </main>
 
